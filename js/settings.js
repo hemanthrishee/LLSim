@@ -1,7 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-    // Side Menu
-
     let settingsBtn = document.getElementById('settings-menu');
     let closeSettings = document.getElementById('close-menu');
     let settingsDiv = document.getElementById('settings');
@@ -48,8 +46,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }, menuTimeout);
     });
 
-    // Code to manage inputs within menu
-
     let inputs = 
         document.querySelectorAll('div.settings-container > div input');
     let error = document.getElementById('settings-error');
@@ -59,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
         nodeAnimationTimeout: 1000,
         pointerAnimationTimeout: 800,
         deleteTimeout: 1000
-    }; // default values
+    };
 
     setAnimationsTimeOuts(animations);
 

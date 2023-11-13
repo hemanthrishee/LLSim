@@ -126,5 +126,4 @@ document.addEventListener('DOMContentLoaded', function() {
         inputs[1].style.display = "block";
         hideButtons();
 	});
-     
 });

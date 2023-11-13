@@ -136,14 +136,10 @@ function animateNodesBeforeInsert (from, to) {
     })
 }
 
-// Public functions
-
 async function add(i, data) {
 
     if (checkInputErrors(i, "Index") || checkInputErrors(data, "Data"))
         return;
-
-   	// Create DOM Elements
 
     let node = document.createElement('div');
     node.classList.add('node');
